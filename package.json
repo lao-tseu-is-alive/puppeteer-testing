@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer-testing",
+  "version": "1.0.0",
+  "description": "Puppeteer testing for trying to control headless chrome browser by code",
+  "main": "src/index.js",
+  "scripts": {
+    "run":  "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lao-tseu-is-alive/puppeteer-testing.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "headless",
+    "chrome"
+  ],
+  "author": "cgil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lao-tseu-is-alive/puppeteer-testing/issues"
+  },
+  "homepage": "https://github.com/lao-tseu-is-alive/puppeteer-testing#readme",
+  "dependencies": {
+    "puppeteer": "^1.4.0"
+  }
+}
