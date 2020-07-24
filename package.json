@@ -2,9 +2,9 @@
   "name": "puppeteer-testing",
   "version": "1.0.0",
   "description": "Puppeteer testing for trying to control headless chrome browser by code",
-  "main": "src/index.js",
+  "main": "src/print_pdf_objet.js",
   "scripts": {
-    "run":  "node src/index.js",
+    "run": "node src/print_pdf_affaire.js",
     "test": "jest"
   },
   "repository": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/lao-tseu-is-alive/puppeteer-testing#readme",
   "dependencies": {
-    "puppeteer": "^1.4.0"
+    "puppeteer": "^5.2.1"
   }
 }
