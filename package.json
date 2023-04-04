@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/lao-tseu-is-alive/puppeteer-testing#readme",
   "dependencies": {
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^19.8.3"
   }
 }

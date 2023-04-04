@@ -12,7 +12,7 @@ const url = 'https://golux.lausanne.ch/goeland/objet/getobjetinfo.php?idObjet=';
     const page = await browser.newPage();
     await page.setCookie({
         'name': 'PHPSESSID',
-        'value': 'm1s7dujg5sfsma4kv7i9fbq3t5',
+        'value': 'm1v9oebvn3muc45ob9pojmpl94',
         'domain': 'golux.lausanne.ch',
         'expires': Date.now() / 1000 + 10,
         'path': '/'
@@ -20,7 +20,7 @@ const url = 'https://golux.lausanne.ch/goeland/objet/getobjetinfo.php?idObjet=';
     console.log(await page.cookies(url));
     await page.goto(url, {waitUntil: 'networkidle2'});
     await page.screenshot({path: 'example.png'});
-    await page.pdf({path: 'hn.pdf', format: 'A4'});
+    await page.pdf({path: 'hn_objet.pdf', format: 'A4'});
     await browser.close();
 })();
 

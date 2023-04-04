@@ -8,7 +8,7 @@ const url = 'https://golux.lausanne.ch/goeland/affaire2/affaire_data.php?idaffai
     const page = await browser.newPage();
     await page.setCookie({
         'name': 'PHPSESSID',
-        'value': 'm1s7dujg5sfsma4kv7i9fbq3t5',
+        'value': 'm1v9oebvn3muc45ob9pojmpl94',
         'domain': 'golux.lausanne.ch',
         'expires': Date.now() / 1000 + 10,
         'path': '/'
