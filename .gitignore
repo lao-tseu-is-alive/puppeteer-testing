@@ -62,3 +62,11 @@ typings/
 
 # webstorm directory
 .idea
+
+# do not include output from puppeteer
+example.png
+hn.pdf
+hn_objet.pdf
+cnn_homepage.pdf
+cnn_homepage_example.png
+

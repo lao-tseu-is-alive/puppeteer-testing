@@ -8,7 +8,7 @@ after the usual stuf :
 + git clone https://github.com/lao-tseu-is-alive/puppeteer-testing.git
 + cd puppeteer-testing
 + npm i
-+ npm run
++ npm run dev
 
 if you got an error, may be try :
 

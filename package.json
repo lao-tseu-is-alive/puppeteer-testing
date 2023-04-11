@@ -4,7 +4,7 @@
   "description": "Puppeteer testing for trying to control headless chrome browser by code",
   "main": "src/print_pdf_objet.js",
   "scripts": {
-    "run": "node src/print_pdf_affaire.js",
+    "dev": "node src/print_pdf_cnn.js",
     "test": "jest"
   },
   "repository": {
